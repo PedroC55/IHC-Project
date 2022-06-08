@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="menuStyle.css">
+
+    <title></title>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="indexLogin.html">AVEIRO<strong>NOW</strong></a>
+  
+      <a href="#sobre">Eventos</a>
+  
+      <input id="myInput" placeholder="Search Events...">
+      <button id="myBtn" onclick="location.href='evento1.html';" >Go</button>
+       <a href ="areaPessoal.html" id="login"><img src="img/manel.jpg" alt="Avatar" class="profile" > </a>
+    </div> 
+    <div class="dropdown" style="float:right;">
+      <button class="dropbtn">v</button>
+      <div class="dropdown-content">
+        <a href="areaPessoal.html">Área Pessoal</a>
+        <a href="pastEvents.html">Eventos Anteriores</a>
+        <a href="index.html">Logout</a>
+      </div>
+    </div>
+  
+
+<!-- Modal Form -->
+<div class="modal fade" id="ModalForm" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <!-- Login Form -->
+        <form action="">
+          <div class="modal-header">
+            <h5 class="modal-title">Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+                <label for="Username">Username<span class="text-danger">*</span></label>
+                <input type="text" name="username" class="form-control" id="Username" placeholder="Enter Username">
+            </div>
+
+            <div class="mb-3">
+                <label for="Password">Password<span class="text-danger">*</span></label>
+                <input type="password" name="password" class="form-control" id="Password" placeholder="Enter Password">
+            </div>
+            <div class="mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="remember" required>
+                <label class="form-check-label" for="remember">Remember Me</label>
+                <a href="#" class="float-end">Forgot Password</a>
+            </div>
+          </div>
+          <div class="modal-footer pt-4">                  
+            <button type="button" class="btn btn-success mx-auto w-100">Login</button>
+          </div>
+          <p class="text-center">Not yet account, <a href="#">Signup</a></p> 
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="row aboutPage">
+  <!--about page-->
+  <div class="col-1 filtros">
+    <div class="vertical-menu">
+      <a href="allEventsMusic.html">Filtrar por Música</a>
+      <a href="allEventsTeatro.html">Filtrar por Teatro</a>
+      <a href="allEventsCinema.html">Filtrar por Cinema</a>
+    </div>
+  </div>
+  <div class="col-11">
+
+    <div class="container" id="otherEvents">
+
+      <div class="row">
+        <div class="col-sm card" style="width: 18rem;">
+          <img src="img/im6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Toy</h5>
+            <p class="card-text">Música - 14 de Junho - 20h</p>
+            <a href="#" class="btn btn-primary"  onclick="location.href='evento1.html';">Ver Mais</a>
+          </div>
+      </div>
+        <div class="col-sm card" style="width: 18rem;">
+          <img src="img/capitao.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Capitão Fausto</h5>
+            <p class="card-text">Musica - 10 de Maio - 20h</p>
+            <a href="evento2.html" class="btn btn-primary">Ver Mais</a>
+          </div>
+      </div>
+      <div class="col-sm card" style="width: 18rem;">
+        <img src="img/im4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Os Maias</h5>
+          <p class="card-text">Teatro - 5 de Agosto - 23h</p>
+          <a href="#" class="btn btn-primary">Ver Mais</a>
+        </div>
+    </div>
+      </div>
+     </div> 
+    
+    
+    
+     <div class="container" id="otherEvents">
+      <div class="row">
+        <div class="col-sm card" style="width: 18rem;">
+            <img src="img/tearo2.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Paixão de Cristo</h5>
+              <p class="card-text">Teatro - 5 de Agosto - 23h</p>
+              <a href="#" class="btn btn-primary">Ver Mais</a>
+            </div>
+        </div>
+      <div class="col-sm card" style="width: 18rem;">
+        <img src="img/wetbedgang.PNG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Wet Bed Gang</h5>
+          <p class="card-text">Música - 10 de Maio - 20h</p>
+          <a href="#" class="btn btn-primary">Ver Mais</a>
+        </div>
+    </div>
+      <div class="col-sm card" style="width: 18rem;">
+        <img src="img/chicodatina.PNG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Chico da Tina</h5>
+          <p class="card-text">Música - 14 de Junho - 20h</p>
+          <a href="#" class="btn btn-primary">Ver Mais</a>
+        </div>
+    </div>
+      </div>
+     </div> 
+     <div class="container" id="otherEvents">
+      <div class="row">
+        <div class="col-sm card" style="width: 18rem;">
+            <img src="img/profjam.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Prof Jam</h5>
+              <p class="card-text">Música - 5 de Agosto - 23h</p>
+              <a href="#" class="btn btn-primary">Ver Mais</a>
+            </div>
+        </div>
+        <div class="col-sm card" style="width: 18rem;">
+          <img src="img/im5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dr Estranho 2 : Multiverso da Loucura</h5>
+            <p class="card-text">Cinema - 10 de Maio - 20h</p>
+            <a href="#" class="btn btn-primary">Ver Mais</a>
+          </div>
+      </div>
+      <div class="col-sm card" style="width: 18rem;">
+        <img src="img/imagine.PNG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Imagine Dragons</h5>
+          <p class="card-text">Música - 7 de Março - 20h</p>
+          <a href="#" class="btn btn-primary">Ver Mais</a>
+        </div>
+    </div>
+      </div>
+     </div> 
+  </div>
+
+</div>
+
+ <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="menuStyle.css">
+
+    <title>Toy</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="indexLogin.html">AVEIRO<strong>NOW</strong></a>
+  
+      <a href="allEvents.html">Eventos</a>
+  
+      <input id="myInput" placeholder="Search Events...">
+      <button id="myBtn" onclick="location.href='evento1.html';" >Go</button>
+       <a href ="areaPessoal.html" id="login"><img src="img/manel.jpg" alt="Avatar" class="profile" > </a>
+    </div> 
+    <div class="dropdown" style="float:right;">
+      <button class="dropbtn">v</button>
+      <div class="dropdown-content">
+        <a href="areaPessoal.html">Área Pessoal</a>
+        <a href="pastEvents.html">Eventos Anteriores</a>
+        <a href="index.html">Logout</a>
+      </div>
+    </div>
+  
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h1>Xutos e Pontapés</h1>
+          <h2>Música - 14 Junho - 20h</h2>
+          <p>
+            Começou a sua carreira artística aos 5 anos numa festa de uma colectividade de Setúbal. Com 10 anos de idade entrou para um grupo de teatro local onde esteve durante 10 anos.
+
+            Após a conclusão dos estudos emigrou para a Alemanha. Está por terras alemãs durante 8 anos, entre os 17 e os 25 anos. Aí trabalhou como torneiro-mecânico mas também como produtor de diversos artistas e tocou com um conjunto de guitarras de Portugal e foi vocalista de um grupo de jazz. Nesse país junta-se a uma banda chamada Prestige, com músicos alemães, que lançam um single com os temas "Mini Saia" e "Berlim".
+            
+            Em 1985 editou, em Portugal, o single "Dias de Paz" através da editora Rádio Triunfo. Pela editora Ovação lançou depois o single "Depois de Ti". A sua grande oportunidade acontece quando escreve as músicas "Portugal Sonhado", "Tanto Mel Tanto Amor" e "Lembro-te" para o álbum "Sedução" de Marco Paulo, lançado em 1986. Também escreve "Tu És Para Mim" para o disco "Sonhador" de José Alberto Reis de 1988. 
+        </div>
+        <div class="col-6" >
+          <img src="img/im2.jpg" class="img-responsive" id="image1" alt="image"    width="100%" height="500px">         </div>
+      </div>
+
+      <div class="container amigos" id="otherEvents">
+        <div class="row">
+          <div class="col-sm card" style="width: 18rem;">
+              <div class="card-body">
+                <button type="button" id="cInterese" class="btn btn-warning mx-auto w-10 buttonAmigos" onclick="location.href='areessoalInteresse.html';" >Com Interesse</button>
+                <button type="button" id="cou" class="btn btn-success mx-auto w-10 buttonAmigos" onclick="location.href='areaPesalVou.html';">Vou</button>
+                <p class="card-title"><strong>Amigos com interesse</strong></p>
+                <p class="card-text">* João Lopes <br>* Vasco Diaz</p>  
+              
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

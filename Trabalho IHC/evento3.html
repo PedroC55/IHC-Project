@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="menuStyle.css">
+
+    <title>Toy</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="indexLogin.html">AVEIRO<strong>NOW</strong></a>
+  
+      <a href="allEvents.html">Eventos</a>
+  
+      <input id="myInput" placeholder="Search Events...">
+      <button id="myBtn" onclick="location.href='evento1.html';" >Go</button>
+       <a href ="areaPessoal.html" id="login"><img src="img/manel.jpg" alt="Avatar" class="profile" > </a>
+    </div> 
+    <div class="dropdown" style="float:right;">
+      <button class="dropbtn">v</button>
+      <div class="dropdown-content">
+        <a href="areaPessoal.html">Área Pessoal</a>
+        <a href="pastEvents.html">Eventos Anteriores</a>
+        <a href="index.html">Logout</a>
+      </div>
+    </div>
+  
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h1>Rui Veloso</h1>
+          <h2>Música - 10 de Fevereiro 2022</h2>
+          <p>
+            Nascido em Lisboa, mas criado desde os três meses de idade no Porto, é filho do engenheiro Aureliano Capelo Veloso, ex-presidente da Câmara Municipal do Porto. É igualmente sobrinho paterno do General Pires Veloso.
+
+            Começou desde muito novo a tocar harmónica. Com 23 anos lançou o álbum "Ar de Rock" gravado com Ramon Galarza e Zé Nabo e que contou com Carlos Tê e António Pinho na escrita das letras em português. No disco destaca-se o tema "Chico Fininho", que foi um marco na música rock cantada em português.
+            
+            Em 1981 é editado o single "Um Café e Um Bagaço". Verifica-se uma mudança na banda sonora com a saída de Zé Nabo e a entrada de António Pinho Vargas e Mano Zé. O álbum "Fora de Moda" é editado em 1982. Contém temas como "Estrela De Rock And Roll", "A Minha Namorada Até Fala Estrangeiro", "A gente Não Lê" e "Sayago Blues". 
+            
+        </div>
+        <div class="col-6" >
+          <img src="img/ruiveloso.PNG" class="img-responsive" id="image1" alt="image"    width="100%" height="500px">         </div>
+      </div>
+
+      <div class="container amigos" id="otherEvents">
+        <div class="row">
+          <div class="col-sm card" style="width: 18rem;">
+              <div class="card-body">
+                <button type="button" id="cInterese" class="btn btn-warning mx-auto w-10 buttonAmigos" onclick="location.href='aressoalInteresse.html';" >Com Interesse</button>
+                <button type="button" id="cou" class="btn btn-success mx-auto w-10 buttonAmigos" onclick="location.href='aressoalVou.html';">Vou</button>
+                <p class="card-title"><strong>Amigos com interesse</strong></p>
+                <p class="card-text">* João Lopes <br>* Vasco Diaz</p>  
+              
+          
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

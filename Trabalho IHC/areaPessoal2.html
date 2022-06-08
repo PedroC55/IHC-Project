@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="menuStyle.css">
+
+    <title></title>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="indexLogin.html">AVEIRO<strong>NOW</strong></a>
+  
+      <a href="allEvents.html">Eventos</a>
+  
+      <input id="myInput" placeholder="Search Events...">
+      <button id="myBtn" onclick="location.href='evento1.html';" >Go</button>
+       <a href ="areaPessoal.html" id="login"><img src="img/manel.jpg" alt="Avatar" class="profile" > </a>
+    </div> 
+    <div class="dropdown" style="float:right;">
+      <button class="dropbtn">v</button>
+      <div class="dropdown-content">
+        <a href="areaPessoal.html">Área Pessoal</a>
+        <a href="pastEvents.html">Eventos Anteriores</a>
+        <a href="index.html">Logout</a>
+      </div>
+    </div>
+  
+
+    <div class="row aboutPage">
+      <!--about page-->
+    <div class="col-4 profileDiv">
+      <img src="img/manel.jpg" alt="Avatar" class="profile2" >
+      <h1>André Faria</h1>
+      <p></p>
+      <p><strong>Email:</strong>  fariaDoMesmoSaco@gmail.com</p>
+      <p><strong>Data Nasc:</strong>  01/01/2002</p>
+      <p><strong>Interesses:</strong> Jazz, Teatro, Cinema Francês</p>
+      <p><strong>Sobre mim:</strong> Olá, sou o Faria e adoro tudo o que seja arte, desde exposições de arte contemporânea a pixel art no minecraft. Tu eu, dois bilhetes para a ópera, vamos?</p>
+      <p></p>
+      <p></p> 
+      <h3 class = "pastEventsTitle"><strong>Últimos Eventos</strong></h3>
+      <div class="container" >
+        <div class="col-sm card" style="width: 18rem;">
+          <div class="card-body pastEvents">
+            <h2 class="card-title"><strong>Dua Lipa</strong></h2>
+            <p class="card-text" style="color: rgb(204, 204, 204)">22 de Março 2022<br>Música<br>Ver Detalhes ></p>
+          </div>
+      </div>
+        <div class="col-sm card pastEvents" style="width: 18rem;">
+          <div class="card-body">
+            <h2 class="card-title"><strong>Rui Veloso</strong></h2>
+            <p class="card-text" style="color: rgb(204, 204, 204)">10 de Fevereiro 2022<br>Música<br>Ver Detalhes ></p>
+          </div>
+      </div>
+      <a href="pastEvents.html" class="btn btn-primary">Ver Todos</a>
+
+    </div>
+    </div>
+    <!--calendario-->
+    <div class="col-8" id="calendar">
+      <h1>&#60;     <strong>Junho 2022</strong> 	&#62;</h1>
+      <div class="container" id="otherEvents">
+        <div class="row">
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>1</strong></h2>
+              <p class="card-text" id="clock" style="color: rgb(204, 204, 204)">Xutos e Pontapés<br> [Com interesse]</p>
+              <button id="login" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ModalForm">
+                Opções
+              </button>
+            </div>
+          </div>
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>2</strong></h2>
+            </div>
+          </div>
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>3</strong></h2>
+              <p class="card-text" style="color: rgb(2, 221, 112)"><strong>Auto da Barca</strong><br> [Vou]</p>
+              <a href="#" class="btn btn-primary calendarButton">Editar</a>
+            </div>
+          </div>
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>4</strong></h2>
+            </div>
+          </div>
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>5</strong></h2>
+            </div>
+          </div>
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>6</strong></h2>
+            </div>
+          </div>
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>7</strong></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+      <!--8 a 14-->
+    
+      <div class="container" id="otherEvents">
+        <div class="row">
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>8</strong></h2>
+              <p class="card-text" id="toy1" style="color: rgb(204, 204, 204); display: none">Xutos e Pontapés<br> [Com
+                interesse]</p>
+              <button id="toy2" type="button" class="btn btn-success" data-bs-toggle="modal" style="display: none"
+                data-bs-target="#ModalForm">
+            </div>
+          </div>
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>9</strong></h2>
+            </div>
+          </div>
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>10</strong></h2>
+            </div>
+          </div>
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>11</strong></h2>
+            </div>
+          </div>
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>12</strong></h2>
+            </div>
+          </div>
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>13</strong></h2>
+            </div>
+          </div>
+          <div class="col-sm card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title"><strong>14</strong></h2>
+              <p class="card-text" id="clock3" style="color: rgb(204, 204, 204); display: none">Toy<br> [Com
+                interesse]</p>
+              <button id="toy2" type="button" class="btn btn-success" data-bs-toggle="modal" style="display: none"
+                data-bs-target="#ModalForm">
+            </div>
+            </div>
+        </div>
+      </div>
+    
+    
+      <! --- 8 a 14 -->
+    
+        <div class="container" id="otherEvents">
+          <div class="row">
+            <div class="col-sm card" style="width: 18rem;">
+              <div class="card-body">
+                <h2 class="card-title"><strong>15</strong></h2>
+              </div>
+            </div>
+            <div class="col-sm card" style="width: 18rem;">
+              <div class="card-body">
+                <h2 class="card-title"><strong>16</strong></h2>
+              </div>
+            </div>
+            <div class="col-sm card" style="width: 18rem;">
+              <div class="card-body">
+                <h2 class="card-title"><strong>17</strong></h2>
+              </div>
+            </div>
+            <div class="col-sm card" style="width: 18rem;">
+              <div class="card-body">
+                <h2 class="card-title"><strong>18</strong></h2>
+              </div>
+            </div>
+            <div class="col-sm card" style="width: 18rem;">
+              <div class="card-body">
+                <h2 class="card-title"><strong>19</strong></h2>
+              </div>
+            </div>
+            <div class="col-sm card" style="width: 18rem;">
+              <div class="card-body">
+                <h2 class="card-title"><strong>20</strong></h2>
+              </div>
+            </div>
+            <div class="col-sm card" style="width: 18rem;">
+              <div class="card-body">
+                <h2 class="card-title"><strong>21</strong></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+        <! --- 22 a 29 -->
+    
+          <div class="container" id="otherEvents">
+            <div class="row">
+              <div class="col-sm card" style="width: 18rem;">
+                <div class="card-body">
+                  <h2 class="card-title"><strong>22</strong></h2>
+                </div>
+              </div>
+              <div class="col-sm card" style="width: 18rem;">
+                <div class="card-body">
+                  <h2 class="card-title"><strong>23</strong></h2>
+                </div>
+              </div>
+              <div class="col-sm card" style="width: 18rem;">
+                <div class="card-body">
+                  <h2 class="card-title"><strong>24</strong></h2>
+                </div>
+              </div>
+              <div class="col-sm card" style="width: 18rem;">
+                <div class="card-body">
+                  <h2 class="card-title"><strong>25</strong></h2>
+                </div>
+              </div>
+              <div class="col-sm card" style="width: 18rem;">
+                <div class="card-body">
+                  <h2 class="card-title"><strong>26</strong></h2>
+                </div>
+              </div>
+              <div class="col-sm card" style="width: 18rem;">
+                <div class="card-body">
+                  <h2 class="card-title"><strong>27</strong></h2>
+                </div>
+              </div>
+              <div class="col-sm card" style="width: 18rem;">
+                <div class="card-body">
+                  <h2 class="card-title"><strong>28</strong></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    
+          <! --- 29 a 31 -->
+    
+            <div class="container" id="otherEvents">
+              <div class="row">
+                <div class="col-sm card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h2 class="card-title"><strong>29</strong></h2>
+                  </div>
+                </div>
+                <div class="col-sm card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h2 class="card-title"><strong>30</strong></h2>
+                  </div>
+                </div>
+                <div class="col-sm card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h2 class="card-title"><strong>31</strong></h2>
+                  </div>
+                </div>
+                <div class="col-sm card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h2 class="card-title"><strong></strong></h2>
+                  </div>
+                </div>
+                <div class="col-sm card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h2 class="card-title"><strong></strong></h2>
+                  </div>
+                </div>
+                <div class="col-sm card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h2 class="card-title"><strong></strong></h2>
+                  </div>
+                </div>
+                <div class="col-sm card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h2 class="card-title"><strong></strong></h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container" >
+              <div class="col-sm card" style="width: 18rem;">
+                <div class="card-body pastEvents">
+                  <h2 class="card-title"><strong>Legenda</strong></h2>
+                  <p class="card-text" style="color: rgb(2, 221, 112)">[Vou] - Verde</p>
+                  <p class="card-text" style="color: rgb(107, 107, 107)">[Com Interesse] - Cinzento</p>
+                </div>
+            </div>
+
+    </div>
+  </div>
+
+
+
+        <!-- Modal Dia 1 - Xutos -->
+        <div class="modal fade" id="ModalForm" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <!-- Login Form -->
+              <form action="">
+                <div class="modal-header">
+                  <h5 class="modal-title">Xutos e Pontapés</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p><strong>Música - 8 de Setembro - 23h</strong></p>
+                  <p>Concerto dos lendários Xutos, que trazem consigo novos sons.</p>
+                  <button type="button" id="vou1" class="btn btn-success mx-auto w-100"
+                    onclick="toggleVou()">[Vou]</button>
+                  <button type="button" class="btn btn-warning mx-auto w-100"
+                    onclick="location.href='evento2.html';">Ver Detalhes</button>
+                  <button type="button" id="remove1" class="btn btn-danger mx-auto w-100" onclick="remove()"
+                    id="clockButton">Remover</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+  <!-- Modal Dia 14 - Toy -->
+<div class="modal fade" id="ModalForm" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+   <div class="modal-content">
+       <!-- Login Form -->
+       <form action="">
+         <div class="modal-header">
+           <h5 class="modal-title">Toy</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+           <p><strong>Música - 14 de Junho - 23h</strong></p>
+           <p>Concerto do lendário Toy, que traz consigo novos sons.</p>
+        <button type="button" id= "vou3" class="btn btn-success mx-auto w-100" onclick="toggleVou3()">[Vou]</button>
+        <button type="button" class="btn btn-warning mx-auto w-100" onclick="location.href='evento2.html';">Ver Detalhes</button>
+        <button type="button" id="remove3" class="btn btn-danger mx-auto w-100" onclick="remove3()" id="clockButton">Remover</button>
+         </div>
+     </form>
+   </div>
+  </div>
+  </div>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+  function remove() {
+    // get the clock
+    var myClock = document.getElementById('clock');
+    var removeButton = document.getElementById('remove1');
+
+    // get the current value of the clock's display property
+    var displaySetting = myClock.style.display;
+
+    // also get the clock button, so we can change what it says
+    var clockButton = document.getElementById('clockButton');
+
+    myClock.style.display = 'none';
+      removeButton.style.display = 'none';
+  }
+
+
+  function toggleVou() {
+    // get the clock
+    var myClock = document.getElementById('vou1');
+    var info = document.getElementById('clock');
+
+    // get the current value of the clock's display property
+    var displaySetting = myClock.style.display;
+
+    // also get the clock button, so we can change what it says
+    var clockButton = document.getElementById('clockButton');
+
+    // now toggle the clock and the button text, depending on current state
+    if (info.style.color = 'rgb(204, 204, 204)') {
+      // clock is visible. hide it
+      info.innerHTML = '<strong>Xutos e Pontapés<strong><br>[Vou]';
+      info.style.color = 'rgb(2, 221, 112)';
+      // change button text
+      myClock.innerHTML = 'Adicionado - [Vou]';
+
+    }
+    else if (info.style.color = 'green') {
+      // clock is hidden. show it
+      info.style.color = 'rgb(204, 204, 204)';
+      // change button text
+      clockButton.innerHTML = '[Vou]';
+    }
+  }
+
+  function toggleVou3() {
+    // get the clock
+    var myClock = document.getElementById('vou3');
+    var info = document.getElementById('clock3');
+
+    // get the current value of the clock's display property
+    var displaySetting = myClock.style.display;
+
+    // also get the clock button, so we can change what it says
+    var clockButton = document.getElementById('clockButton');
+
+    // now toggle the clock and the button text, depending on current state
+    if (info.style.color = 'rgb(204, 204, 204)') {
+      // clock is visible. hide it
+      info.innerHTML = '<strong>Toy<strong><br>[Vou]';
+      info.style.color = 'rgb(2, 221, 112)';
+      // change button text
+      myClock.innerHTML = 'Adicionado - [Vou]';
+
+    }
+    else if (info.style.color = 'green') {
+      // clock is hidden. show it
+      info.style.color = 'rgb(204, 204, 204)';
+      // change button text
+      clockButton.innerHTML = '[Vou]';
+    }
+  }
+
+
+
+
+
+  
+    </script>
+        <script src="script.js"></script>
+
+  </body>
+</html>
+
+

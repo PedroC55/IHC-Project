@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="menuStyle.css">
+
+    <title></title>
+  </head>
+  <body>
+
+    <div class="topnav">
+      <a class="active" href="indexLogin.html">AVEIRO<strong>NOW</strong></a>
+  
+      <a href="allEvents.html">Eventos</a>
+  
+      <input id="myInput" placeholder="Search Events...">
+      <button id="myBtn" onclick="location.href='evento1.html';" >Go</button>
+       <a href ="areaPessoal.html" id="login"><img src="img/manel.jpg" alt="Avatar" class="profile" > </a>
+    </div> 
+    <div class="dropdown" style="float:right;">
+      <button class="dropbtn">v</button>
+      <div class="dropdown-content">
+        <a href="areaPessoal.html">Área Pessoal</a>
+        <a href="pastEvents.html">Eventos Anteriores</a>
+        <a href="index.html">Logout</a>
+      </div>
+    </div>
+  
+
+
+
+
+<div class = "container">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="evento1.html">
+          <img src="img/im6.jpg" class="d-block w-100" alt="...">
+        </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Toy</h5>
+            <p>Música - 14 de Junho - 20h</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/im5.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Dr Estranho 2 : Multiverso da Loucura</h5>
+            <p>Cinema - 8 de Setembro - 23h.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/im3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Imagine Dragons</h5>
+            <p>Música - 5 de Agosto - 23h</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container" id="otherEvents">
+    <div class="row">
+      <div class="col-sm card" style="width: 18rem;">
+          <img src="img/im4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Os Maias</h5>
+            <p class="card-text">Teatro - 5 de Agosto - 23h</p>
+            <a href="#" class="btn btn-primary">Ver Mais</a>
+          </div>
+      </div>
+      <div class="col-sm card" style="width: 18rem;">
+        <img src="img/im2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Xutos e Pontapés</h5>
+          <p class="card-text">Música- 10 de Maio - 20h</p>
+          <a href="evento2.html" class="btn btn-primary">Ver Mais</a>
+        </div>
+    </div>
+    <div class="col-sm card" style="width: 18rem;">
+      <img src="img/im1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Auto da Barca</h5>
+        <p class="card-text">Teatro - 7 de Março - 20h</p>
+        <a href="#" class="btn btn-primary">Ver Mais</a>
+      </div>
+  </div>
+    </div>
+   </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
